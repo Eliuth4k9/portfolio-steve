@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Steve from "./components/Steve";
 
 const App = (props) => {
   
   return (
     <div>
-   <h1>hi im stever</h1>
+   <Steve/>
     </div>
   );
 };

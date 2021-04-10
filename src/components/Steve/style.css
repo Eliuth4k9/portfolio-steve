@@ -1,0 +1,12 @@
+.catImgContainer{
+    width: 276px;
+    height: 445px;
+    overflow: hidden;
+}
+.catImgContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background:transparent;
+    mix-blend-mode: multiply;
+}

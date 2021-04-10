@@ -9,10 +9,19 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
-h1 {
-  color: white;
+.primaryColor {
+  color:#90EE90;
+}
+
+.primaryBgColor {
+  background: #16c79a;
+}
+
+.textColor {
+  color:#FFF0F5;
 }
 
 .font-10 {
@@ -99,8 +108,23 @@ h1 {
   padding: 0 10px;
 }
 
+.flexRow{
+  display: flex;
+}
+.justify-sb {
+  justify-content: space-between;
+}
+ 
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .container {
-  width: 800%;
+  width: 50%;
   margin: 0 auto;
   position: relative;
 }
